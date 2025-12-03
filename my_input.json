@@ -1,0 +1,57 @@
+{
+    "merge_datasets": {
+      "description": "If you want to merge the dataset uploaded and the augmented data, respond with 'true'; otherwise, respond with 'false.'",
+      "user_input": false
+    },
+    "use_existing_dataset": {
+      "description": "If you want to use your existing dataset uploaded as a zip file, respond with 'true'; otherwise, respond with 'false.'",
+      "user_input": false
+    },
+    "augmentation_settings": {
+      "RGB_Shift": {
+        "description": "Apply random shifts in RGB color channels to the image.",
+        "enabled": true
+      },
+      "HueSaturationValue": {
+        "description": "Randomly change the hue, saturation, and value of the image.",
+        "enabled": true
+      },
+      "ChannelShuffle": {
+        "description": "Shuffle the color channels in the image randomly.",
+        "enabled": false
+      },
+      "CLAHE": {
+        "description": "Apply Contrast Limited Adaptive Histogram Equalization to enhance image contrast.",
+        "enabled": true
+      },
+      "RandomContrast": {
+        "description": "Adjust the contrast of the image randomly.",
+        "enabled": true
+      },
+      "RandomGamma": {
+        "description": "Apply random gamma corrections to the image.",
+        "enabled": false
+      },
+      "RandomBrightness": {
+        "description": "Change the brightness of the image randomly.",
+        "enabled": true
+      },
+      "Blur": {
+        "description": "Apply a random blur effect to the image.",
+        "enabled": true
+      },
+      "MedianBlur": {
+        "description": "Apply a median blur to the image for noise reduction.",
+        "enabled": false
+      },
+      "ToGray": {
+        "description": "Convert the image to grayscale.",
+        "enabled": false
+      },
+      "JpegCompression": {
+        "description": "Apply random JPEG compression to the image.",
+        "enabled": true
+      }
+    }
+  }
+  
