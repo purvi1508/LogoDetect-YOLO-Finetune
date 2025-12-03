@@ -102,7 +102,7 @@ logos.zip + Backgrounds
       │
       ▼
 [Fine-Tuned YOLO Model] ← train_yolo()
-
+```
 ## Usage
 
 1. **Prepare Logos and Backgrounds**  
@@ -117,3 +117,4 @@ data.zip/
   Background/
     bg1.jpg
     bg2.png
+```
